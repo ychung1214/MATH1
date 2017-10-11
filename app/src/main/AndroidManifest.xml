@@ -17,7 +17,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".addition"
+        <activity android:name=".addition1"
             android:screenOrientation="landscape"></activity>
     </application>
 

@@ -15,13 +15,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button add = (Button)findViewById(R.id.add);
+        Button add = (Button)findViewById(R.id.add1);
         add.setOnClickListener(
                 new Button.OnClickListener()
                 {
                     public void onClick(View v)
                     {
-                        Intent myIntent = new Intent(v.getContext(), addition.class);
+                        Intent myIntent = new Intent(v.getContext(), addition1.class);
                         startActivity(myIntent);
                     }
                 }

@@ -30,34 +30,53 @@
             android:layout_weight="1">
 
             <Button
-                android:text="加法範例"
+                android:text="加法範例-1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/add"
+                android:id="@+id/add1"
                 android:layout_weight="1"
                 android:layout_margin="20dp"
                 android:textSize="50dp"
                 android:background="#ecd1ff"/>
 
             <Button
-                android:text="減法範例"
+                android:id="@+id/minus1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/minus"
-                android:layout_weight="1"
                 android:layout_margin="20dp"
-                android:textSize="50dp"
-                android:background="#d1edff"/>
+                android:layout_weight="1"
+                android:background="#d1edff"
+                android:text="減法範例-1"
+                android:textSize="50dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
 
             <Button
-                android:text="試著練習"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/test"
+                android:id="@+id/add2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="加法範例-2"
                 android:layout_weight="1"
                 android:layout_margin="20dp"
                 android:textSize="50dp"
-                android:background="#d7ffd1"/>
+                android:background="#ecd1ff"/>
+
+            <Button
+                android:id="@+id/minus2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="20dp"
+                android:textSize="50dp"
+                android:background="#d1edff"
+                android:text="減法範例2" />
+
         </LinearLayout>
     </LinearLayout>
 

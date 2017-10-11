@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_addition1"
+    android:id="@+id/activity_addition2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -11,7 +11,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     android:layout_weight="4"
-    tools:context="com.example.asus.math1.addition1">
+    tools:context="com.example.asus.math1.addition2">
 
     <Button
         android:text="回選單"
@@ -33,8 +33,8 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="小花的書櫃裡有16本書，後來爸爸送她5本，小花便將書放進書櫃裡，
-請問：現在小花的書櫃裡有幾本書？"
+            android:text="阿祥今天上午在操場檢了13片楓葉，下午又撿了6片，
+請問：他今天共撿了幾片楓葉？"
             android:textSize="35dp"
             android:gravity="top"
             android:textColor="#444"/>
@@ -42,7 +42,7 @@
             android:id="@+id/formula"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="=> 算式：16 + 5 = 21 (本)"
+            android:text="=> 算式：13 + 6 = 19 (片)"
             android:textSize="45dp"
             android:gravity="top"
             android:textColor="#3751e4"/>
@@ -54,44 +54,52 @@
             android:layout_marginBottom="10dp">
 
             <ImageView
-                android:id="@+id/nb4"
+                android:id="@+id/mp1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/notebook64"
+                app:srcCompat="@drawable/maple64"
                 android:layout_gravity="center_vertical"/>
 
             <ImageView
-                android:id="@+id/nb2"
+                android:id="@+id/mp2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/notebook64"
+                app:srcCompat="@drawable/maple64"
                 android:layout_gravity="center_vertical"/>
 
             <ImageView
-                android:id="@+id/nb3"
+                android:id="@+id/mp3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/notebook64"
+                app:srcCompat="@drawable/maple64"
                 android:layout_gravity="center_vertical"/>
 
             <ImageView
-                android:id="@+id/nb5"
+                android:id="@+id/mp4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/notebook64"
+                app:srcCompat="@drawable/maple64"
                 android:layout_gravity="center_vertical"/>
 
             <ImageView
-                android:id="@+id/nb6"
+                android:id="@+id/mp5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/notebook64"
+                app:srcCompat="@drawable/maple64"
                 android:layout_gravity="center_vertical"/>
+
+            <ImageView
+                android:id="@+id/mp6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/maple64" />
         </LinearLayout>
 
     </LinearLayout>
@@ -110,7 +118,7 @@
             android:layout_height="59dp"
             android:layout_weight="1"
             android:gravity="center_horizontal"
-            android:text="假設這邊已經有16本~~~~~~"
+            android:text="假設這邊已經有13片楓葉~~~~~~"
             android:textSize="40dp" />
     </LinearLayout>
 
@@ -133,48 +141,6 @@
 
         </LinearLayout>
 
-        <!--<LinearLayout
-            android:id="@+id/right_layout"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#b1f7ad"
-            android:gravity="center"
-            android:orientation="vertical" >
-
-            <LinearLayout
-                android:layout_width="92dp"
-                android:layout_height="59dp"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/before"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:layout_weight="1"
-                        android:gravity="top"
-                        android:text="書 櫃"
-                        android:textColor="#444"
-                        android:textSize="40dp" />
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:layout_weight="1">
-            </LinearLayout>!-->
-
-        <!--</LinearLayout>!-->
     </LinearLayout>
 
 </LinearLayout>

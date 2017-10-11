@@ -16,13 +16,25 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button add = (Button)findViewById(R.id.add1);
+        Button add2 = (Button)findViewById(R.id.add2);
+
         add.setOnClickListener(
                 new Button.OnClickListener()
                 {
                     public void onClick(View v)
                     {
-                        Intent myIntent = new Intent(v.getContext(), addition1.class);
-                        startActivity(myIntent);
+                        Intent myIntent1 = new Intent(v.getContext(), addition1.class);
+                        startActivity(myIntent1);;
+                    }
+                }
+        );
+        add2.setOnClickListener(
+                new Button.OnClickListener()
+                {
+                    public void onClick(View v)
+                    {
+                        Intent myIntent2 = new Intent(v.getContext(), addition2.class);
+                        startActivity(myIntent2);
                     }
                 }
         );

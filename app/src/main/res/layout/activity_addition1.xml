@@ -33,8 +33,7 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="小花的書櫃裡有16本書，後來爸爸送她5本，小花便將書放進書櫃裡，
-請問：現在小花的書櫃裡有幾本書？"
+            android:text="小花的書櫃裡有16本書，後來爸爸送她5本，小花便將書放進書櫃裡，請問：現在小花的書櫃裡有幾本書？"
             android:textSize="35dp"
             android:gravity="top"
             android:textColor="#444"/>

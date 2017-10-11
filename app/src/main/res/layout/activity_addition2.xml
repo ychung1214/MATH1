@@ -33,8 +33,7 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="阿祥今天上午在操場檢了13片楓葉，下午又撿了6片，
-請問：他今天共撿了幾片楓葉？"
+            android:text="阿祥今天上午在操場檢了13片楓葉，下午又撿了6片，請問：他今天共撿了幾片楓葉？"
             android:textSize="35dp"
             android:gravity="top"
             android:textColor="#444"/>

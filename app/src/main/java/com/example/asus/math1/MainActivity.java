@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Button add = (Button)findViewById(R.id.add1);
         Button add2 = (Button)findViewById(R.id.add2);
-
+        Button minus1 = (Button)findViewById(R.id.minus1);
         add.setOnClickListener(
                 new Button.OnClickListener()
                 {
@@ -35,6 +35,16 @@ public class MainActivity extends AppCompatActivity {
                     {
                         Intent myIntent2 = new Intent(v.getContext(), addition2.class);
                         startActivity(myIntent2);
+                    }
+                }
+        );
+        minus1.setOnClickListener(
+                new Button.OnClickListener()
+                {
+                    public void onClick(View v)
+                    {
+                        Intent myIntent3 = new Intent(v.getContext(), subtraction1.class);
+                        startActivity(myIntent3);
                     }
                 }
         );

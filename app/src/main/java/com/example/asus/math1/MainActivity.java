@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         Button add = (Button)findViewById(R.id.add1);
         Button add2 = (Button)findViewById(R.id.add2);
         Button minus1 = (Button)findViewById(R.id.minus1);
+        Button minus2 = (Button)findViewById(R.id.minus2);
         add.setOnClickListener(
                 new Button.OnClickListener()
                 {
@@ -45,6 +46,16 @@ public class MainActivity extends AppCompatActivity {
                     {
                         Intent myIntent3 = new Intent(v.getContext(), subtraction1.class);
                         startActivity(myIntent3);
+                    }
+                }
+        );
+        minus2.setOnClickListener(
+                new Button.OnClickListener()
+                {
+                    public void onClick(View v)
+                    {
+                        Intent myIntent4 = new Intent(v.getContext(), subtraction2.class);
+                        startActivity(myIntent4);
                     }
                 }
         );

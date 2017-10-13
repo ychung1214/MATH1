@@ -61,7 +61,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/notebook64" />
+                app:srcCompat="@drawable/notebook_10" />
 
             <ImageView
                 android:id="@+id/nbk2"
@@ -69,7 +69,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/notebook64" />
+                app:srcCompat="@drawable/notebook_10" />
 
             <ImageView
                 android:id="@+id/nbk3"

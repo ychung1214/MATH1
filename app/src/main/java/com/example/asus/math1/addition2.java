@@ -1,5 +1,7 @@
 package com.example.asus.math1;
 
+import android.graphics.Matrix;
+import android.graphics.RectF;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,6 +15,11 @@ import android.view.DragEvent;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+
+import java.util.IllegalFormatWidthException;
+
+import static android.R.attr.bitmap;
+import static android.R.attr.dialogMessage;
 
 public class addition2 extends AppCompatActivity implements View.OnDragListener, View.OnLongClickListener{
 

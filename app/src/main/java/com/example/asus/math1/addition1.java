@@ -25,6 +25,7 @@ public class addition1 extends AppCompatActivity implements View.OnDragListener,
     private ImageView nb4;
     private ImageView nb5;
     private ImageView nb6;
+    private ImageView bb_10,bb2,bb3,bb4,bb5,bb6,bb7;
     private static final String IMAGE_VIEW_TAG = "LAUNCHER LOGO";
     //private static final String TEXT_VIEW_TAG = "DRAG TEXT";
     //private static final String BUTTON_VIEW_TAG = "DRAG BUTTON";
@@ -57,6 +58,21 @@ public class addition1 extends AppCompatActivity implements View.OnDragListener,
         nb5.setTag(IMAGE_VIEW_TAG);
         nb6 = (ImageView) findViewById(R.id.nb6);
         nb6.setTag(IMAGE_VIEW_TAG);
+
+        bb_10 = (ImageView) findViewById(R.id.bb_10);
+        bb_10.setTag(IMAGE_VIEW_TAG);
+        bb2 = (ImageView) findViewById(R.id.bb2);
+        bb2.setTag(IMAGE_VIEW_TAG);
+        bb3 = (ImageView) findViewById(R.id.bb3);
+        bb3.setTag(IMAGE_VIEW_TAG);
+        bb4 = (ImageView) findViewById(R.id.bb4);
+        bb4.setTag(IMAGE_VIEW_TAG);
+        bb5 = (ImageView) findViewById(R.id.bb5);
+        bb5.setTag(IMAGE_VIEW_TAG);
+        bb6 = (ImageView) findViewById(R.id.bb6);
+        bb6.setTag(IMAGE_VIEW_TAG);
+        bb7 = (ImageView) findViewById(R.id.bb7);
+        bb7.setTag(IMAGE_VIEW_TAG);
         //button = (Button) findViewById(R.id.button);
         //button.setTag(BUTTON_VIEW_TAG) ;
     }
@@ -70,6 +86,14 @@ public class addition1 extends AppCompatActivity implements View.OnDragListener,
         nb4.setOnLongClickListener(this);
         nb5.setOnLongClickListener(this);
         nb6.setOnLongClickListener(this);
+
+        bb_10.setOnLongClickListener(this);
+        bb2.setOnLongClickListener(this);
+        bb3.setOnLongClickListener(this);
+        bb4.setOnLongClickListener(this);
+        bb5.setOnLongClickListener(this);
+        bb6.setOnLongClickListener(this);
+        bb7.setOnLongClickListener(this);
         //button.setOnLongClickListener(this);
 
         //上面加這邊也要

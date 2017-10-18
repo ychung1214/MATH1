@@ -33,6 +33,7 @@ public class addition2 extends AppCompatActivity implements View.OnDragListener,
     private ImageView mp4;
     private ImageView mp5;
     private ImageView mp6;
+    private ImageView mm_10,mm2,mm3,mm4;
     private static final String IMAGE_VIEW_TAG = "LAUNCHER LOGO";
     //private static final String TEXT_VIEW_TAG = "DRAG TEXT";
     //private static final String BUTTON_VIEW_TAG = "DRAG BUTTON";
@@ -67,6 +68,15 @@ public class addition2 extends AppCompatActivity implements View.OnDragListener,
         mp5.setTag(IMAGE_VIEW_TAG);
         mp6 = (ImageView) findViewById(R.id.mp6);
         mp6.setTag(IMAGE_VIEW_TAG);
+
+        mm_10 = (ImageView) findViewById(R.id.mm_10);
+        mm_10.setTag(IMAGE_VIEW_TAG);
+        mm2 = (ImageView) findViewById(R.id.mm2);
+        mm2.setTag(IMAGE_VIEW_TAG);
+        mm3 = (ImageView) findViewById(R.id.mm3);
+        mm3.setTag(IMAGE_VIEW_TAG);
+        mm4 = (ImageView) findViewById(R.id.mm4);
+        mm4.setTag(IMAGE_VIEW_TAG);
         //button = (Button) findViewById(R.id.button);
         //button.setTag(BUTTON_VIEW_TAG) ;
     }
@@ -81,6 +91,12 @@ public class addition2 extends AppCompatActivity implements View.OnDragListener,
         mp4.setOnLongClickListener(this);
         mp5.setOnLongClickListener(this);
         mp6.setOnLongClickListener(this);
+
+        mm_10.setOnLongClickListener(this);
+        mm2.setOnLongClickListener(this);
+        mm3.setOnLongClickListener(this);
+        mm3.setOnLongClickListener(this);
+
         //button.setOnLongClickListener(this);
 
         //上面加這邊也要

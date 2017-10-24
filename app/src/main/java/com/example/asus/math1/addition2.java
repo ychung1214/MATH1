@@ -15,6 +15,8 @@ import android.view.DragEvent;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.util.DisplayMetrics;
+import android.widget.TextView;
 
 import java.util.IllegalFormatWidthException;
 
@@ -35,6 +37,7 @@ public class addition2 extends AppCompatActivity implements View.OnDragListener,
     private ImageView mp6;
     private ImageView mm_10,mm2,mm3,mm4;
     private static final String IMAGE_VIEW_TAG = "LAUNCHER LOGO";
+    DisplayMetrics metrics = new DisplayMetrics();
     //private static final String TEXT_VIEW_TAG = "DRAG TEXT";
     //private static final String BUTTON_VIEW_TAG = "DRAG BUTTON";
 
@@ -42,6 +45,17 @@ public class addition2 extends AppCompatActivity implements View.OnDragListener,
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_addition2);
+
+        getWindowManager().getDefaultDisplay().getMetrics(metrics);
+        DisplayMetrics metrics = getResources().getDisplayMetrics();
+
+        int DeviceTotalWidth = metrics.widthPixels;
+        int DeviceTotalHeight = metrics.heightPixels;
+        TextView product = (TextView)findViewById(R.id.textView) ;
+        TextView product_2 = (TextView)findViewById(R.id.formula) ;
+        product.setTextSize(DeviceTotalWidth/70);
+        product_2.setTextSize(DeviceTotalWidth/70);
+
         findViews();
         implementEvents();
     }
